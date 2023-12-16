@@ -18,3 +18,65 @@ My code has one test and one module to allow for easier implementation. I chose 
 Finally I created a function to combine NY and CT. It could be any two states that border eachother, but it links the states together using MST to have one less connection than total nodes. Not only does my code connect nodes within a state but it also has the functionality to connect all the nodes in bordering states, in the most efficient manor. Once again, full US connection is not viable due to the amount of nodes but this is an exemplify how it is possible.
 <br> <br>
 There is only one module called hvs.rs and the dependencies I use in my toml file are petgraph = "0.6" and calamine = "0.17.0".
+<br> <br>
+Below is what the function produces:
+<br> <br>
+State: CT
+<br>
+Number of Cell Towers: 114
+<br>
+Number of Connections: 113
+<br>
+State: NJ
+<br>
+Number of Cell Towers: 170
+<br>
+Number of Connections: 169
+<br>
+State: MA
+<br>
+Number of Cell Towers: 143
+<br>
+Number of Connections: 142
+<br>
+State: VT
+<br>
+Number of Cell Towers: 68
+<br>
+Number of Connections: 67
+<br>
+State: ME
+<br>
+Number of Cell Towers: 212
+<br>
+Number of Connections: 211
+<br>
+State: NH
+<br>
+Number of Cell Towers: 145
+<br>
+Number of Connections: 144
+<br>
+State: RI
+<br>
+Number of Cell Towers: 29
+<br>
+Number of Connections: 28
+<br>
+State: NY
+<br>
+Number of Cell Towers: 636
+<br>
+Number of Connections: 635
+<br>
+Total Cell Towers: 1517
+<br>
+Total Cell Towers in NE: 711
+<br>
+Total Cell Towers in Tri-State: 920
+<br>
+Combined States
+<br>
+Total Cell Towers: 750
+<br>
+Number of Connections: 749
